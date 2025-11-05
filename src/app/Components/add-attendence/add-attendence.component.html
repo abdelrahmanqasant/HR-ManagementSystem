@@ -1,0 +1,45 @@
+<div class="container mt-4">
+  <h3>Add Attendance</h3>
+  <form [formGroup]="attendenceForm" (ngSubmit)="addAttendence()">
+    <div class="mb-3">
+      <label>Employee ID</label>
+      <input type="number" formControlName="empId" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label>Day</label>
+      <input type="date" formControlName="day" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label>Arrival</label>
+      <input type="time" formControlName="arrival" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label>Departure</label>
+      <input type="time" formControlName="departure" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label>Status</label>
+      <select formControlName="status" class="form-control">
+        <option [value]="0">Present</option>
+        <option [value]="1">Absent</option>
+        <option [value]="2">Leave</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label>Department Name</label>
+      <input type="text" formControlName="deptName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label>Employee Name</label>
+      <input type="text" formControlName="empName" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Attendance</button>
+  </form>
+</div>

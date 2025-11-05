@@ -1,0 +1,30 @@
+@media print {
+  .sidebar,
+  .navbar,
+  button,
+  input[type="search"],
+  .actions {
+    display: none !important;
+  }
+
+  body {
+    overflow: visible !important;
+  }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  table th,
+  table td {
+    border: 1px solid #000 !important;
+    padding: 8px !important;
+  }
+
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}

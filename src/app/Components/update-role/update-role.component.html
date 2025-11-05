@@ -1,0 +1,20 @@
+<div class="container mt-4">
+  <h3>Update Role</h3>
+
+  <form [formGroup]="roleForm" (ngSubmit)="updateRole()">
+    <div class="mb-3">
+      <label class="form-label">Role Name</label>
+      <input type="text" class="form-control" formControlName="roleName" />
+      <small
+        class="text-danger"
+        *ngIf="
+          roleForm.get('roleName')?.invalid && roleForm.get('roleName')?.touched
+        "
+      >
+        Role name is required
+      </small>
+    </div>
+
+    <button class="btn btn-primary" [disabled]="roleForm.invalid">Save</button>
+  </form>
+</div>

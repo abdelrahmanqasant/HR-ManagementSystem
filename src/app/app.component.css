@@ -1,0 +1,11 @@
+.router {
+  height: 90vh;
+  margin-left: 78px;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+
+.router.shifted {
+  margin-left: 250px;
+}

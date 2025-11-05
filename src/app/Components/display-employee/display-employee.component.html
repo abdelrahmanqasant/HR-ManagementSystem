@@ -1,0 +1,109 @@
+<div class="container my-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <div class="col-auto">
+      <button class="btn bgMain txtMain" (click)="addEmployee()">
+        Add Employee
+      </button>
+    </div>
+
+    <div class="d-flex align-items-center">
+      <input
+        type="search"
+        [(ngModel)]="searchText"
+        class="form-control me-2"
+        placeholder="Search"
+      />
+      <button type="button" class="btn bgMain txtMain" (click)="onSearch()">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </div>
+  </div>
+
+  <table class="table text-center">
+    <thead>
+      <tr>
+        <th>Full Name</th>
+        <th>Social Security Number</th>
+        <th>Address</th>
+        <th>Gender</th>
+        <th>Phone Number</th>
+        <th>Base Salary</th>
+        <th>Birth Date</th>
+        <th>Contract Date</th>
+        <th>Clock In</th>
+        <th>Clock Out</th>
+        <th>Department</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr
+        *ngFor="
+          let emp of employees
+            | filter : searchText
+            | paginate
+              : {
+                  itemsPerPage: 7,
+                  currentPage: page,
+                  totalItems: totalLength
+                };
+          trackBy: trackByFn
+        "
+      >
+        <td>{{ emp.fullName }}</td>
+        <td>{{ emp.ssn }}</td>
+        <td>{{ emp.address }}</td>
+        <td>{{ emp.gender == 0 ? "Male" : "Female" }}</td>
+        <td>{{ emp.phoneNumber }}</td>
+        <td>{{ emp.baseSalary }}</td>
+        <td>{{ emp.birthDate }}</td>
+        <td>{{ emp.contractDate }}</td>
+        <td>{{ emp.arrival }}</td>
+        <td>{{ emp.departure }}</td>
+        <td>{{ emp.departmentName }}</td>
+
+        <td>
+          <div>
+            <button class="btn bgMain txtMain" (click)="updateForm(emp)">
+              Update
+            </button>
+
+            <button
+              class="btn btn-danger"
+              (click)="openModal(template, emp.id)"
+            >
+              Delete
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Pagination -->
+  <div *ngIf="employees.length != 0" class="row mt-3 justify-content-end">
+    <div class="col-lg-7">
+      <pagination-controls (pageChange)="page = $event"></pagination-controls>
+    </div>
+  </div>
+
+  <!-- Delete Modal -->
+  <ng-template #template>
+    <div class="modal-body text-center">
+      <p>Do you want to confirm?</p>
+
+      <button
+        type="button"
+        class="btn btn-danger m-2"
+        (click)="deleteEmployee(deleteEmp)"
+      >
+        Yes
+      </button>
+
+      <button type="button" class="btn btn-primary" (click)="decline()">
+        No
+      </button>
+    </div>
+  </ng-template>
+</div>

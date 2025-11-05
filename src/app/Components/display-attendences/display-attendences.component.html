@@ -1,0 +1,45 @@
+<div class="container mt-4">
+  <div class="mb-3">
+    <button class="btn btn-success" (click)="AddAttendence()">
+      Add Attendance
+    </button>
+  </div>
+
+  <h2>Attendance List</h2>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Employee</th>
+        <th>Department</th>
+        <th>Status</th>
+        <th>Day</th>
+        <th>Arrival</th>
+        <th>Departure</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let att of attendences">
+        <td>{{ att.empName }}</td>
+        <td>{{ att.deptName }}</td>
+        <td>{{ att.status === 0 ? "Present" : "Absent" }}</td>
+
+        <td>{{ att.day | date : "shortDate" }}</td>
+
+        <td>{{ att.arrival }}</td>
+        <td>{{ att.departure }}</td>
+
+        <td>
+          <button
+            class="btn btn-danger btn-sm"
+            (click)="deleteAttendence(att.empId, att.day)"
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

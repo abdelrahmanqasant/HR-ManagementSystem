@@ -1,0 +1,145 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 col-lg-6 mx-auto">
+      <div class="card shadow">
+        <div class="card-header">
+          <div class="card-title">Add User</div>
+        </div>
+
+        <div class="card-body">
+          <form [formGroup]="validationUser" (ngSubmit)="success()">
+            <!-- Full Name -->
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Full Name"
+                formControlName="fullName"
+              />
+
+              <small
+                class="text-danger"
+                *ngIf="fullName?.touched && fullName?.errors?.['required']"
+              >
+                Full Name is required.
+              </small>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter Email"
+                formControlName="email"
+              />
+
+              <small
+                class="text-danger"
+                *ngIf="email?.touched && email?.errors?.['required']"
+              >
+                Email is required.
+              </small>
+
+              <small
+                class="text-danger"
+                *ngIf="email?.touched && email?.errors?.['email']"
+              >
+                Invalid email format.
+              </small>
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Enter Password"
+                formControlName="password"
+              />
+
+              <small
+                class="text-danger"
+                *ngIf="password?.touched && password?.errors?.['required']"
+              >
+                Password is required.
+              </small>
+
+              <small
+                class="text-danger"
+                *ngIf="password?.touched && password?.errors?.['minlength']"
+              >
+                * Minimum must be 4 characters
+              </small>
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="mb-3">
+              <label class="form-label">Confirm Password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Confirm Password"
+                formControlName="confirmPassword"
+              />
+
+              <small
+                class="text-danger"
+                *ngIf="confirmPassword?.touched && confirmPassword?.errors?.['required']"
+              >
+                Confirm Password is required.
+              </small>
+
+              <small
+                class="text-danger"
+                *ngIf="validationUser.errors?.['passwordMismatch'] && confirmPassword?.touched"
+              >
+                Passwords do not match.
+              </small>
+            </div>
+
+            <!-- Role -->
+            <div class="mb-3">
+              <label class="form-label">Role</label>
+              <select class="form-select" formControlName="role">
+                <option value="" disabled selected>Choose a role...</option>
+                <option *ngFor="let role of roles" [value]="role.name">
+                  {{ role.name }}
+                </option>
+              </select>
+
+              <small
+                class="text-danger"
+                *ngIf="role?.touched && role?.errors?.['required']"
+              >
+                Role is required.
+              </small>
+            </div>
+
+            <!-- Buttons -->
+            <div class="text-center">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                (click)="onCancel()"
+              >
+                Cancel
+              </button>
+
+              <button
+                type="submit"
+                class="btn bgMain txtMain"
+                [disabled]="validationUser.invalid"
+              >
+                Register
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

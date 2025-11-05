@@ -1,0 +1,294 @@
+<div class="col-md-8 col-lg-6 mx-auto mt-5">
+  <div class="card shadow text-center">
+    <div class="card-header">
+      <div class="card-title">Update Employee Data</div>
+    </div>
+
+    <div class="card-body">
+      <form class="form-container" [formGroup]="validationUpdateEmployee">
+        <div class="row">
+          <!-- Work Info -->
+          <div class="col-lg-6">
+            <h2 class="txtSub">Work Info</h2>
+
+            <!-- Address -->
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <input
+                type="text"
+                id="address"
+                class="form-control"
+                placeholder="Enter address"
+                formControlName="address"
+              />
+              <div [hidden]="address?.valid || address?.untouched">
+                <small *ngIf="address?.errors?.['required']" class="text-danger">
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number:</label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                class="form-control"
+                placeholder="Enter phone number"
+                formControlName="phoneNumber"
+              />
+              <div [hidden]="phoneNumber?.valid || !phoneNumber?.touched">
+                <small
+                  *ngIf="phoneNumber?.errors?.['required']"
+                  class="text-danger"
+                >
+                  This field is required
+                </small>
+                <small
+                  *ngIf="phoneNumber?.errors?.['pattern']"
+                  class="text-danger"
+                >
+                  Phone must be 11 digits (numbers only)
+                </small>
+              </div>
+            </div>
+
+            <!-- Arrival -->
+            <div class="form-group">
+              <label for="arrival">Clock In:</label>
+              <input
+                type="time"
+                id="arrival"
+                class="form-control"
+                formControlName="arrival"
+              />
+              <div [hidden]="arrival?.valid || arrival?.untouched">
+                <small *ngIf="arrival?.errors?.['required']" class="text-danger">
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Departure -->
+            <div class="form-group">
+              <label for="departure">Clock Out:</label>
+              <input
+                type="time"
+                id="departure"
+                class="form-control"
+                formControlName="departure"
+              />
+              <div [hidden]="departure?.valid || departure?.untouched">
+                <small
+                  *ngIf="departure?.errors?.['required']"
+                  class="text-danger"
+                >
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Department -->
+            <div class="form-group">
+              <label for="department">Department:</label>
+              <select
+                id="department"
+                class="form-control"
+                formControlName="departmentName"
+              >
+                <option value="" disabled>Select Department</option>
+                <option *ngFor="let dept of departments" [value]="dept.name">
+                  {{ dept.name }}
+                </option>
+              </select>
+              <div
+                [hidden]="departmentName?.valid || departmentName?.untouched"
+              >
+                <small
+                  *ngIf="departmentName?.errors?.['required']"
+                  class="text-danger"
+                >
+                  This field is required
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Info -->
+          <div class="col-lg-6">
+            <h2 class="txtSub">Personal Info</h2>
+
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="fullName">Full Name:</label>
+              <input
+                type="text"
+                id="fullName"
+                class="form-control"
+                placeholder="Enter full name"
+                formControlName="fullName"
+              />
+              <div [hidden]="fullName?.valid || !fullName?.touched">
+                <small
+                  *ngIf="fullName?.errors?.['required']"
+                  class="text-danger"
+                >
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Gender -->
+            <div class="form-group">
+              <label for="gender">Gender:</label>
+              <select
+                id="gender"
+                class="form-control"
+                formControlName="gender"
+              >
+                <option value="" disabled>Select Gender</option>
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+              </select>
+              <div [hidden]="gender?.valid || gender?.untouched">
+                <small *ngIf="gender?.errors?.['required']" class="text-danger">
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Nationality -->
+            <div class="form-group">
+              <label for="nationality">Nationality:</label>
+              <select
+                id="nationality"
+                class="form-select"
+                formControlName="nationality"
+              >
+                <option value="" disabled>Select Nationality</option>
+                <option
+                  *ngFor="let country of allCountries"
+                  [value]="country"
+                >
+                  {{ country }}
+                </option>
+              </select>
+            </div>
+
+            <!-- Birth Date -->
+            <div class="form-group">
+              <label for="birthDate">Birth Date:</label>
+              <input
+                type="date"
+                id="birthDate"
+                class="form-control"
+                formControlName="birthDate"
+              />
+              <div [hidden]="birthDate?.valid || birthDate?.untouched">
+                <small *ngIf="birthDate?.errors?.['required']" class="text-danger">
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Contract Date -->
+            <div class="form-group">
+              <label for="contractDate">Contract Date:</label>
+              <input
+                type="date"
+                id="contractDate"
+                class="form-control"
+                formControlName="contractDate"
+              />
+              <div [hidden]="contractDate?.valid || !contractDate?.touched">
+                <small
+                  *ngIf="contractDate?.errors?.['required']"
+                  class="text-danger"
+                >
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Base Salary -->
+            <div class="form-group">
+              <label for="baseSalary">Base Salary:</label>
+              <input
+                type="number"
+                id="baseSalary"
+                class="form-control"
+                placeholder="Enter base salary"
+                formControlName="baseSalary"
+              />
+              <div [hidden]="baseSalary?.valid || !baseSalary?.touched">
+                <small
+                  *ngIf="baseSalary?.errors?.['required']"
+                  class="text-danger"
+                >
+                  This field is required
+                </small>
+              </div>
+            </div>
+
+            <!-- SSN -->
+            <div class="form-group">
+              <label for="SSN">Social Security Number:</label>
+              <input
+                type="number"
+                id="SSN"
+                class="form-control"
+                placeholder="Enter SSN"
+                formControlName="ssn"
+              />
+              <div [hidden]="ssn?.valid || !ssn?.touched">
+                <small *ngIf="ssn?.errors?.['required']" class="text-danger">
+                  This field is required
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="d-flex gap-3 justify-content-end mt-4">
+          <button
+            type="button"
+            class="btn btn-outline-secondary"
+            (click)="onCancel()"
+          >
+            Cancel
+          </button>
+
+          <button
+            type="button"
+            [disabled]="validationUpdateEmployee.invalid"
+            class="btn btn-primary bgMain"
+            (click)="openModal(template)"
+          >
+            Update Employee
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <ng-template #template>
+          <div class="modal-body text-center">
+            <p>Do you want to confirm update?</p>
+
+            <button
+              type="button"
+              class="btn btn-warning m-2"
+              (click)="UpdateEmployeeBtn()"
+            >
+              Yes
+            </button>
+
+            <button type="button" class="btn btn-primary" (click)="decline()">
+              No
+            </button>
+          </div>
+        </ng-template>
+      </form>
+    </div>
+  </div>
+</div>

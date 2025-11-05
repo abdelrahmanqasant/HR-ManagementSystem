@@ -1,0 +1,102 @@
+.signIn-pg {
+  background-image: url("../../../assets/company.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10%;
+  background-repeat: no-repeat;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.97);
+  width: 520px;
+  padding: 50px 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.login-form input.form-control {
+  height: 55px;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  transition: all 0.3s ease;
+  color: #000;
+}
+
+.login-form input.form-control.form-error {
+  border-color: #dc3545 !important;
+  color: #dc3545 !important;
+}
+
+.login-form input.form-control.form-error::placeholder {
+  color: #dc3545;
+}
+
+.login-form input.form-control.ng-valid {
+  border-color: #28a745;
+  color: #000;
+}
+
+.login-form img {
+  height: 120px;
+}
+
+.login-text {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 700;
+  color: #0b2b40;
+  margin-bottom: 25px;
+}
+
+.login-form .btn {
+  height: 50px;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #0b2b40;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #165c88;
+}
+
+.text-danger {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .signIn-pg {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .login-form {
+    width: 90%;
+    padding: 40px 30px;
+  }
+
+  .login-form input.form-control {
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .login-form .btn {
+    font-size: 16px;
+  }
+}

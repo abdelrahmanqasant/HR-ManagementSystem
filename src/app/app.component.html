@@ -1,0 +1,23 @@
+<ng-container
+  *ngIf="accountService.currentUser$ | async as user; else notLoggedIn"
+>
+  <ngx-spinner
+    bdColor="rgba(0, 0, 0, 0.8)"
+    size="medium"
+    color="#fff"
+    type="line-scale-party"
+    [fullScreen]="false"
+  >
+    <p style="color: white">Loading...</p>
+  </ngx-spinner>
+
+  <app-sidebar></app-sidebar>
+
+  <div class="router">
+    <router-outlet></router-outlet>
+  </div>
+</ng-container>
+
+<ng-template #notLoggedIn>
+  <router-outlet></router-outlet>
+</ng-template>
