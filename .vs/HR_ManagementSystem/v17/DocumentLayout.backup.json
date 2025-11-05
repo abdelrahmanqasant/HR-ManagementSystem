@@ -131,8 +131,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Helpers\\UserParams.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T22:10:50.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T22:10:50.715Z"
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Implementations\\AttendenceRepo.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAmwDIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T22:12:44.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T22:12:44.346Z"
             },
             {
               "$type": "Document",
@@ -157,8 +155,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Implementations\\WeeklyDaysOffRepo.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwB8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T13:44:08.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T13:44:08.048Z"
             },
             {
               "$type": "Document",
@@ -170,8 +167,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Utilities\\Constants.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T18:03:20.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T18:03:20.38Z"
             },
             {
               "$type": "Document",
@@ -183,8 +179,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Models\\Attendence.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T21:09:37.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T21:09:37.673Z"
             },
             {
               "$type": "Document",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\ProjectProcessing\\PayrollCalculator.cs",
               "ViewState": "AgIAAKIAAAAAAAAAAAD4v5YAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T21:10:09.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T21:10:09.992Z"
             },
             {
               "$type": "Document",
@@ -209,8 +203,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Permission\\PermissionAuthorizationHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T20:56:19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T20:56:19Z"
             },
             {
               "$type": "Document",
@@ -222,8 +215,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Utilities\\Permission.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T20:42:52.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T20:42:52.857Z"
             },
             {
               "$type": "Document",
@@ -235,8 +227,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\SuperAdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAO4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T05:36:20.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T05:36:20.945Z"
             },
             {
               "$type": "Document",
@@ -248,8 +239,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\SalaryController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwBIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T20:41:09.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T20:41:09.498Z"
             },
             {
               "$type": "Document",
@@ -261,8 +251,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Helpers\\PagedList.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowB4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T21:08:34.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T21:08:34.795Z"
             },
             {
               "$type": "Document",
@@ -274,8 +263,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\OrganizationController.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAgwEkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T13:41:52.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T13:41:52.624Z"
             },
             {
               "$type": "Document",
@@ -287,8 +275,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:42:56.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T19:42:56.496Z"
             },
             {
               "$type": "Document",
@@ -300,8 +287,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\DepartmentController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwCQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T20:46:42.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T20:46:42.511Z"
             },
             {
               "$type": "Document",
@@ -313,8 +299,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\DaysOffController.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAswAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T20:39:02.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T20:39:02.595Z"
             },
             {
               "$type": "Document",
@@ -326,8 +311,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\AttendenceController.cs",
               "ViewState": "AgIAAKwAAAAAAAAAAAAwwLYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T21:44:08.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T21:44:08.716Z"
             },
             {
               "$type": "Document",
@@ -339,8 +323,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\DTOs\\AttendenceDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T21:41:42.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T21:41:42.279Z"
             },
             {
               "$type": "Document",
@@ -352,8 +335,7 @@
               "RelativeToolTip": "HR_ManagementSystem\\Controllers\\ApplicationUserController.cs",
               "ViewState": "AgIAAIgAAAAAAAAAAAAkwCQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T19:56:35.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T19:56:35.467Z"
             }
           ]
         },

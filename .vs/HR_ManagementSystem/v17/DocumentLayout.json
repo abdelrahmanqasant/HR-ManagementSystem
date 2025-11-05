@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,8 +90,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 171,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\appsettings.json",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\appsettings.json",
+              "RelativeToolTip": "HR_ManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T20:01:50.512Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Program.cs",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserParams.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Helpers\\UserParams.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Helpers\\UserParams.cs",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AttendenceRepo.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Implementations\\AttendenceRepo.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Implementations\\AttendenceRepo.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "WeeklyDaysOffRepo.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Implementations\\WeeklyDaysOffRepo.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Implementations\\WeeklyDaysOffRepo.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Constants.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Utilities\\Constants.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Utilities\\Constants.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Attendence.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Models\\Attendence.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Models\\Attendence.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PayrollCalculator.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\ProjectProcessing\\PayrollCalculator.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\ProjectProcessing\\PayrollCalculator.cs",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PermissionAuthorizationHandler.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Permission\\PermissionAuthorizationHandler.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Permission\\PermissionAuthorizationHandler.cs",
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Permission.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Utilities\\Permission.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Utilities\\Permission.cs",
@@ -219,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SuperAdminController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\SuperAdminController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\SuperAdminController.cs",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SalaryController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\SalaryController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\SalaryController.cs",
@@ -243,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PagedList.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Helpers\\PagedList.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Helpers\\PagedList.cs",
@@ -255,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "OrganizationController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\OrganizationController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\OrganizationController.cs",
@@ -267,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\EmployeeController.cs",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\DepartmentController.cs",
@@ -291,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DaysOffController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\DaysOffController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\DaysOffController.cs",
@@ -303,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AttendenceController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\AttendenceController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\AttendenceController.cs",
@@ -315,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AttendenceDTO.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\DTOs\\AttendenceDTO.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\DTOs\\AttendenceDTO.cs",
@@ -327,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ApplicationUserController.cs",
               "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\ApplicationUserController.cs",
               "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\ApplicationUserController.cs",
