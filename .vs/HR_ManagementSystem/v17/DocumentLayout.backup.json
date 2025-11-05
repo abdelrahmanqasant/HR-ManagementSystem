@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\utilities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\utilities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\utilities\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\utilities\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\projectprocessing\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\projectprocessing\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\permission\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\permission\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\models\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\models\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\implementations\\attendencerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\implementations\\attendencerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\helpers\\userparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\helpers\\userparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\implementations\\weeklydaysoffrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\implementations\\weeklydaysoffrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\helpers\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\helpers\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\dtos\\attendencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\dtos\\attendencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\daysoffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\daysoffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|d:\\hr_managementsystem\\webapi\\hr_managementsystem\\hr_managementsystem\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47A7CF3-60C2-4BA7-89DE-EBADDE6C801B}|HR_ManagementSystem\\HR_ManagementSystem.csproj|solutionrelative:hr_managementsystem\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 171,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Program.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Program.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:17:20.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserParams.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Helpers\\UserParams.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Helpers\\UserParams.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Helpers\\UserParams.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Helpers\\UserParams.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T22:10:50.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttendenceRepo.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Implementations\\AttendenceRepo.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Implementations\\AttendenceRepo.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Implementations\\AttendenceRepo.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Implementations\\AttendenceRepo.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwDIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T22:12:44.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeeklyDaysOffRepo.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Implementations\\WeeklyDaysOffRepo.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Implementations\\WeeklyDaysOffRepo.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Implementations\\WeeklyDaysOffRepo.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Implementations\\WeeklyDaysOffRepo.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T13:44:08.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Utilities\\Constants.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Utilities\\Constants.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Utilities\\Constants.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Utilities\\Constants.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T18:03:20.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Attendence.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Models\\Attendence.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Models\\Attendence.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Models\\Attendence.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Models\\Attendence.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:09:37.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PayrollCalculator.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\ProjectProcessing\\PayrollCalculator.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\ProjectProcessing\\PayrollCalculator.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\ProjectProcessing\\PayrollCalculator.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\ProjectProcessing\\PayrollCalculator.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAD4v5YAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:10:09.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PermissionAuthorizationHandler.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Permission\\PermissionAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Permission\\PermissionAuthorizationHandler.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Permission\\PermissionAuthorizationHandler.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Permission\\PermissionAuthorizationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T20:56:19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Utilities\\Permission.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Utilities\\Permission.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Utilities\\Permission.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Utilities\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T20:42:52.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SuperAdminController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\SuperAdminController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\SuperAdminController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\SuperAdminController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\SuperAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T05:36:20.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SalaryController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\SalaryController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\SalaryController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\SalaryController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\SalaryController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T20:41:09.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Helpers\\PagedList.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Helpers\\PagedList.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Helpers\\PagedList.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Helpers\\PagedList.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:08:34.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrganizationController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\OrganizationController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\OrganizationController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\OrganizationController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\OrganizationController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwEkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T13:41:52.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T19:42:56.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwCQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T20:46:42.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DaysOffController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\DaysOffController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\DaysOffController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\DaysOffController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\DaysOffController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T20:39:02.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AttendenceController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\AttendenceController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\AttendenceController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\AttendenceController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\AttendenceController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAwwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T21:44:08.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttendenceDTO.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\DTOs\\AttendenceDTO.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\DTOs\\AttendenceDTO.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\DTOs\\AttendenceDTO.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\DTOs\\AttendenceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T21:41:42.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "HR_ManagementSystem\\Controllers\\ApplicationUserController.cs",
+              "ToolTip": "D:\\Hr_ManagementSystem\\WebAPI\\HR_ManagementSystem\\HR_ManagementSystem\\Controllers\\ApplicationUserController.cs",
+              "RelativeToolTip": "HR_ManagementSystem\\Controllers\\ApplicationUserController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T19:56:35.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 343,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
