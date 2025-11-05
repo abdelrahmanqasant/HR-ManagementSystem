@@ -1,0 +1,117 @@
+HR Management System – Full Stack Project
+
+A complete Human Resources Management System built using ASP.NET Core Web API for the backend and Angular for the frontend.
+The system manages employees, attendance, roles & permissions, organization settings, commissions, deductions, and weekly off days.
+
+Table of Contents
+
+Overview
+
+Features
+
+Technologies Used
+
+Backend (ASP.NET Core Web API)
+
+Frontend (Angular)
+
+
+This project provides a structured HR system that supports:
+
+Role management (CRUD + permissions)
+
+Attendance & absence tracking
+
+Organization settings management
+
+Commission & deduction calculation (hour-based or amount-based)
+
+Weekly off day selection (max 2 days)
+
+Employee management
+
+Authentication & Authorization using ASP.NET Identity
+
+
+Features
+ Backend Features
+
+Authentication using JWT
+
+Role creation, update, and deletion
+
+Updating role names with permission re-mapping
+
+Managing organization settings
+
+Weekly off-day logic with validation
+
+Repository + Service layer
+
+DTOs and clean API responses
+
+ Frontend Features (Angular)
+
+Fully working UI for all modules
+
+Role update page with routing state
+
+Weekly off-day checkboxes (max 2)
+
+Dynamic forms for commission/deduction
+
+Toastr notifications
+
+Clean component structure
+
+API integration with interceptors
+
+
+Technologies Used
+Backend
+
+ASP.NET Core Web API (v3.1 → v9 concepts)
+
+C#
+
+Entity Framework Core
+
+ASP.NET Identity
+
+SQL Server
+
+Repository Pattern
+
+AutoMapper (if included)
+
+JWT Authentication
+
+Frontend
+
+Angular 17
+
+TypeScript
+
+Reactive Forms
+
+HTTPClient
+
+Routing with state
+
+ngx-toastr
+
+NgxPagination
+
+Bootstrap 
+
+Key Components
+
+roles/ – List, update, delete
+
+organization-settings/ – Commission, deduction, weekly off days
+
+attendance/ – Add, display
+
+employees/ – CRUD
+
+modal dialogs 
